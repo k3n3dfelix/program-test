@@ -1,0 +1,12 @@
+Validação Concluida!
+
+FORM:<br/>
+{{ form.nome.label }}{{ form.nome.value }}<br/>
+{{ form.email.label }}{{ form.email.value}}<br/><br/>
+{{form.nome}}<br/><br/>
+
+
+
+{% for promotor in promotores %}
+- {{pessoa.nome}} {{pessoa.email}}<br/>
+{% endfor %}
